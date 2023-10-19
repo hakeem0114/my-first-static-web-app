@@ -9,7 +9,7 @@ app.http('message', {
         console.log('Tests')
         const name = request.query.get('name') || await request.text() || 'Does not exist';
 
-        return { body: `Hello, Tumii Name: ${name}!` };
+        return { body: `Hello, Tumii` };
     }
 });
 
